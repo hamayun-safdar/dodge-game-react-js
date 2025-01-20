@@ -1,0 +1,52 @@
+/* game component  */
+
+.main {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #282c34;
+}
+.game {
+  border: 1px solid #282c34;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+}
+.greyObj {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+  position: absolute;
+}
+
+.redObj {
+  width: 30px;
+  height: 30px;
+  background-color: brown;
+  position: absolute;
+  transition: all 3s ease;
+}
+
+.sub {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub div {
+  display: flex;
+}
+
+.sub p {
+  margin-top: 21px;
+  margin-left: 10px;
+}
+
+.hscr {
+  margin-top: -30px;
+}
